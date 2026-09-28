@@ -1,0 +1,13 @@
+{
+  "name": "amm-dex-monorepo",
+  "private": true,
+  "scripts": {
+    "install:all": "pnpm install",
+    "contracts:test": "pnpm --filter @amm/contracts test",
+    "contracts:compile": "pnpm --filter @amm/contracts compile",
+    "web:dev": "pnpm --filter web dev"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.3"
+  }
+}
